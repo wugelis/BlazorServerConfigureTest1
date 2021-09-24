@@ -1,1 +1,1 @@
-# Blazor Server ªº Configuration (appSettings.config)½d¨Òµ{¦¡
+ï»¿# Blazor Server çš„ Configuration (appSettings.config)ç¯„ä¾‹ç¨‹å¼
