@@ -1,0 +1,21 @@
+﻿@page "/myappsettings"
+@using BlazorServerConfigureTest1.Configuration
+@using BlazorServerConfigureTest1.Data
+@using Microsoft.Extensions.Options
+@inject AppSettings appSettings
+
+<h3>MyAppSettings</h3>
+
+<p>
+    管理者信箱：@appSettings.AdminEMail
+</p>
+<p>
+    中文姓名：@appSettings.UserChtName
+</p>
+<p>
+    職稱：@appSettings.Title
+</p>
+
+@code {
+
+}

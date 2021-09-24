@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorServerConfigureTest1", "BlazorServerConfigureTest1\BlazorServerConfigureTest1.csproj", "{6DF73EA0-01D4-4E7E-94B0-A540B6FFEF7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6DF73EA0-01D4-4E7E-94B0-A540B6FFEF7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF73EA0-01D4-4E7E-94B0-A540B6FFEF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF73EA0-01D4-4E7E-94B0-A540B6FFEF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF73EA0-01D4-4E7E-94B0-A540B6FFEF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D66D3F06-8592-407C-9E58-1B6BF89212D6}
+	EndGlobalSection
+EndGlobal
