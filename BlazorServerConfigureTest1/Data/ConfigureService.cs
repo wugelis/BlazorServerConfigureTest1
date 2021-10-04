@@ -21,17 +21,5 @@ namespace BlazorServerConfigureTest1.Data
             return Task.Factory.StartNew(() => 
                 _configuration.GetSection("appSettings").GetSection(sectionName).Value); 
         }
-
-        //public Task<string> GetUserChtName()
-        //{
-        //    return Task.Factory.StartNew(() => 
-        //        _configuration.GetSection("appSettings").GetSection("UserChtName").Value);
-        //}
-
-        //public Task<string> GetTitle()
-        //{
-        //    return Task.Factory.StartNew(() =>
-        //        _configuration.GetSection("appSettings").GetSection("Title").Value);
-        //}
     }
 }
