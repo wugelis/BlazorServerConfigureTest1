@@ -16,10 +16,22 @@ namespace BlazorServerConfigureTest1.Data
             _configuration = configuration;
         }
 
-        public Task<string> GetAdminEMail()
+        public Task<string> GetConfigValue(string sectionName)
         {
             return Task.Factory.StartNew(() => 
-                _configuration.GetSection("appSettings").GetSection("AdminEMail").Value); 
+                _configuration.GetSection("appSettings").GetSection(sectionName).Value); 
         }
+
+        //public Task<string> GetUserChtName()
+        //{
+        //    return Task.Factory.StartNew(() => 
+        //        _configuration.GetSection("appSettings").GetSection("UserChtName").Value);
+        //}
+
+        //public Task<string> GetTitle()
+        //{
+        //    return Task.Factory.StartNew(() =>
+        //        _configuration.GetSection("appSettings").GetSection("Title").Value);
+        //}
     }
 }

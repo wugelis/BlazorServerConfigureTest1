@@ -1,0 +1,19 @@
+﻿@page "/myappsettings2"
+@using BlazorServerConfigureTest1.Data
+@inject ConfigureService _configService
+
+<h3>MyAppSettings2</h3>
+
+<p>
+    Admin EMail:@_configService.GetConfigValue("AdminEMail").Result
+</p>
+<p>
+    UserChtName:@_configService.GetConfigValue("UserChtName").Result
+</p>
+<p>
+    Title:@_configService.GetConfigValue("Title").Result
+</p>
+
+@code {
+
+}
